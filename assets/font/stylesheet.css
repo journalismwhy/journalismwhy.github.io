@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    src: url('TTSupermolotNeue-ThinItalic.eot');
+    src: local('TT Supermolot Neue Thin Italic'), local('TTSupermolotNeue-ThinItalic'),
+        url('TTSupermolotNeue-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTSupermolotNeue-ThinItalic.woff2') format('woff2'),
+        url('TTSupermolotNeue-ThinItalic.woff') format('woff'),
+        url('TTSupermolotNeue-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue Exp DBold';
+    src: url('TTSupermolotNeue-ExpDBold.eot');
+    src: local('TT Supermolot Neue Expanded DemiBold'), local('TTSupermolotNeue-ExpDBold'),
+        url('TTSupermolotNeue-ExpDBold.eot?#iefix') format('embedded-opentype'),
+        url('TTSupermolotNeue-ExpDBold.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExpDBold.woff') format('woff'),
+        url('TTSupermolotNeue-ExpDBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue Exp';
+    src: url('TTSupermolotNeue-ExpBlack.eot');
+    src: local('TT Supermolot Neue Expanded Black'), local('TTSupermolotNeue-ExpBlack'),
+        url('TTSupermolotNeue-ExpBlack.eot?#iefix') format('embedded-opentype'),
+        url('TTSupermolotNeue-ExpBlack.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExpBlack.woff') format('woff'),
+        url('TTSupermolotNeue-ExpBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

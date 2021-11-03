@@ -1,11 +1,14 @@
 .navbar {
-  /*background-color: #ffc529!important;*/
+  background-color: #231e22!important;
   border-bottom: 1px solid #ffffff;
   font-family: 'Cairo', sans-serif;
   font-weight: normal;
   padding: 5px;
 }
 
+.logo {
+  width: 100px;
+}
 
 .navbar-brand {
   font-family: 'TT Supermolot Neue Exp DBold', sans-serif;
@@ -515,6 +518,7 @@ section {
   .slogan {
     background-color: #ffc529;
     letter-spacing: 0.4em;
+    text-align: center;
   }
 }
 
@@ -525,5 +529,9 @@ section {
 
   .mobi {
     display: none!important;
+  }
+
+  .logo {
+    margin-right:15px;
   }
 }

@@ -581,15 +581,6 @@ section {
   font-family: "Nunito", sans-serif;
 }
 
-.footer .social-links a {
-  font-size: 40px;
-  display: inline-block;
-  color: #dddddd;
-  line-height: 0;
-  margin-right: 10px;
-  transition: 0.3s;
-}
-
 .footer .social-links a:hover {
   color: #ffc529;
 }
@@ -597,7 +588,7 @@ section {
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: #000000;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -615,7 +606,7 @@ section {
 
 .footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #d0d4fc;
+  color: #000000;
   font-size: 12px;
   line-height: 0;
 }
@@ -631,14 +622,14 @@ section {
 }
 
 .footer .footer-top .footer-links ul a {
-  color: #013289;
+  color: #333333;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 .footer .footer-top .footer-links ul a:hover {
-  color: #4154f1;
+  color: #000000;
 }
 
 .footer .footer-top .footer-contact p {

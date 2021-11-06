@@ -24,7 +24,7 @@
 }
 
 .navbar a:hover {
-  color:  #FFFFFF;
+  color: #FFFFFF!important;
 }
 
 .img-principal {
@@ -240,9 +240,10 @@ section {
 --------------------------------------------------------------*/
 .team {
   padding: 60px 0;
-  background: url('assets/img/hero-bg.jpg') top center no-repeat;
+  background-color: #ffc529;
+  /*background: url('assets/img/hero-bg.jpg') top center no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
 }
 
 .team .member {
@@ -387,6 +388,7 @@ section {
   color: #444444;
   background: #888888;
   padding: 30px;
+  min-height: 230px;
 }
 
 .contact .info-box i {
@@ -488,6 +490,23 @@ section {
   background: #5969f3;
 }
 
+.social-link {
+  text-align: center;
+  margin: auto!important;
+}
+
+.contact .info-box .social-link i {
+  font-size: 4.1em!important;
+  display: inline-block;
+  color: #ffc529;
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.contact .info-box .social-link i:hover {
+  color: #dddddd!important;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -505,6 +524,141 @@ section {
     transform: rotate(360deg);
   }
 }
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  background-color: #231e22;
+  padding: 0 0 30px 0;
+  font-size: 14px;
+}
+
+.footer .footer-top {
+  background: #ffc529 url('assets/img/footer-bg.png') no-repeat right top;
+  background-size: contain;
+  border-top: 1px solid #e1ecff;
+  border-bottom: 1px solid #e1ecff;
+  padding: 60px 0 30px 0;
+}
+
+@media (max-width: 992px) {
+  .footer .footer-top {
+    background-position: center bottom;
+  }
+}
+
+.footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+.footer .footer-top .footer-info .logo {
+  line-height: 0;
+  margin: auto;
+  max-width: 150px;
+}
+
+.footer .footer-top .footer-info .logo img {
+  max-width: 100px!important;
+  margin: auto
+}
+
+.footer .footer-top .footer-info .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #012970;
+  font-family: "Nunito", sans-serif;
+  margin-top: 3px;
+}
+
+.footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.footer .social-links a {
+  font-size: 40px;
+  display: inline-block;
+  color: #dddddd;
+  line-height: 0;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: #ffc529;
+}
+
+.footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #012970;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-top .footer-links {
+  margin: auto;
+}
+
+.footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #d0d4fc;
+  font-size: 12px;
+  line-height: 0;
+}
+
+.footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-top .footer-links ul a {
+  color: #013289;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.footer .footer-top .footer-links ul a:hover {
+  color: #4154f1;
+}
+
+.footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+.footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+  color: #ffc529;
+}
+
+.footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #012970;
+}
+
+
 
 
 @media (max-width: 1023px) {

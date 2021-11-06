@@ -665,6 +665,12 @@ section {
     letter-spacing: 0.4em;
     text-align: center;
   }
+
+  .contact .info-box {
+    text-align: center;
+    padding-top: 30px;
+    min-height: none;
+  }
 }
 
 @media (min-width: 1024px) {

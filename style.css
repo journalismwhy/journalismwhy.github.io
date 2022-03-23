@@ -589,6 +589,18 @@ section {
     display: none!important;
   }
 
+  .cookieConsentContainer .cookieTitle {
+    display:none;
+  }
+
+  .cookieConsentContainer .cookieDesc p {
+    margin-top: 5px!important;
+  }
+
+  .cookieConsentContainer .cookieButton a {
+    padding:10px 15px;
+    }
+
   .txt-principal {
     padding: 20px;
   }
@@ -672,7 +684,7 @@ section {
   }
 
 .cookieConsentContainer .cookieTitle a {
-  font-family:OpenSans,arial,sans-serif;
+  font-family:'Nimbus Sans Extd',arial,sans-serif;
   color:#ffc529;
   font-size:22px;
   line-height:20px;
@@ -688,9 +700,10 @@ section {
 
 .cookieConsentContainer .cookieDesc p {
   float: left;
+  width: 50%;
   margin:0;
   padding:0;
-  font-family:OpenSans,arial,sans-serif;
+  font-family:'Lato Regular',arial,sans-serif;
   color:#fff;
   font-size:13px;
   line-height:20px;

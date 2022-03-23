@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: 'Lato Regular';
-  src: URL('assets/font/Lato-Regular.ttf') format('truetype');
+  font-family: 'Roboto Regular';
+  src: URL('assets/font/Roboto-Regular.ttf') format('truetype');
 }
 
 
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .lead {
-  font-family: 'Lato Regular', serif, sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
 }
 
 .navbar-brand {
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   letter-spacing: 0.6em;
   padding: 8px;
-  font-family: 'Nimbus Sans Extd', serif, sans-serif;
+  font-family: 'Nimbus Sans Extd', sans-serif;
   border-bottom: 2px solid #ffffff;
 }
 
@@ -113,6 +113,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .social a {
   color: #FFFFFF;
+  margin: 0;
+}
+.social a:hover {
+  color: #000;
   margin: 0;
 }
 
@@ -188,7 +192,7 @@ section {
 }
 
 .services .box p {
-  font-family: 'Lato Regular', sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
 }
 
 
@@ -282,7 +286,7 @@ section {
 }
 
 .team .member .member-info p {
-  font-family: 'Lato Regular', sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
   font-style: italic;
   font-size: 1em;
   line-height: 1.3em;
@@ -703,7 +707,7 @@ section {
   width: 50%;
   margin:0;
   padding:0;
-  font-family:'Lato Regular',arial,sans-serif;
+  font-family:'Roboto Regular',arial,sans-serif;
   color:#fff;
   font-size:13px;
   line-height:20px;

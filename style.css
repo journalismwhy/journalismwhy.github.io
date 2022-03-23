@@ -1,13 +1,27 @@
+@font-face {
+  font-family: 'Nimbus Sans Extd';
+  src: URL('assets/font/Nimbus-Sans-D-OT-Regular-Extended_32755.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nimbus Sans Extd Bold';
+  src: URL('assets/font/Nimbus-Sans-D-OT-Bold-Extended_32745.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nimbus Sans Extd Bold', sans-serif;
+}
+
 .navbar {
   background-color: #231e22!important;
   border-bottom: 1px solid #ffffff;
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Nimbus Sans Extd', sans-serif;
   font-weight: normal;
   padding: 5px;
 }
 
 .logo {
-  width: 100px;
+  width: 240px;
 }
 
 .navbar-brand {
@@ -36,7 +50,6 @@
 .img-principal {
   float: right;
   width: 50%;
-  z-index: 0;
   text-align: right;
 }
 
@@ -61,9 +74,9 @@
   background-color: #ffc529;
   color: #FFFFFF;
   text-align: left;
-  letter-spacing: 0.8em;
+  letter-spacing: 0.6em;
   padding: 8px;
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Nimbus Sans Extd', serif, sans-serif;
   border-bottom: 2px solid #ffffff;
 }
 
@@ -90,9 +103,12 @@
   margin: 0;
 }
 
+.maior {
+  font-size: 1.4em;
+}
+
 
 section {
-  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -226,7 +242,7 @@ section {
 }
 
 .team .member .social i {
-  font-size: 18px;
+  font-size: 1em;
 }
 
 .team .member .member-info {
@@ -236,22 +252,22 @@ section {
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 1.2em;
   color: #ffc529;
 }
 
 .team .member .member-info span {
   display: block;
-  font-size: 14px;
+  font-size: 1.1em;
   font-weight: 400;
   color: #dddddd;
+  padding-bottom: 15px;
 }
 
 .team .member .member-info p {
   font-style: italic;
-  font-size: 14px;
-  padding-top: 15px;
-  line-height: 26px;
+  font-size: 0.9em;
+  line-height: 1.4em;
   color: #aaaaaa;
 }
 
@@ -461,7 +477,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   background-color: #231e22;
-  padding: 0 0 30px 0;
+  padding: 0 0 15px 0;
   font-size: 14px;
 }
 
@@ -568,7 +584,7 @@ section {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #ffc529;
+  color: #000;
 }
 
 .footer .credits {
@@ -589,6 +605,11 @@ section {
   .desktop {
     display: none!important;
   }
+
+  .txt-principal {
+    padding: 20px;
+  }
+
   .slogan {
     background-color: #ffc529;
     letter-spacing: 0.4em;
@@ -656,15 +677,14 @@ section {
 
 .cookieConsentContainer {
   z-index:999;
-  width:350px;
-  min-height:20px;
+  width:100%;
   box-sizing:border-box;
-  padding:30px 30px 30px 30px;
+  padding:10px 30px 10px 30px;
   background:#232323;
   overflow:hidden;
   position:fixed;
-  bottom:30px;
-  right:30px;
+  bottom:0px;
+  right:0px;
   display:none;
   }
 
@@ -674,9 +694,17 @@ section {
   font-size:22px;
   line-height:20px;
   display:block;
+  float:left;
+  margin-right: 10px;
+  margin-top: 15px;
+  }
+
+.cookieConsentContainer .cookieTitle a:hover {
+  color:#fff;
   }
 
 .cookieConsentContainer .cookieDesc p {
+  float: left;
   margin:0;
   padding:0;
   font-family:OpenSans,arial,sans-serif;
@@ -684,7 +712,7 @@ section {
   font-size:13px;
   line-height:20px;
   display:block;
-  margin-top:10px;
+  margin-top: 17px;
   }
 
 .cookieConsentContainer .cookieDesc a {
@@ -695,12 +723,12 @@ section {
 
 .cookieConsentContainer .cookieButton a {
   display:inline-block;
+  float: right;
   font-family:OpenSans,arial,sans-serif;
-  color:#fff;
+  color:#000;
   font-size:14px;
   font-weight:700;
-  margin-top:14px;
-  background:#000;
+  background:#ffc529;
   box-sizing:border-box;
   padding:15px 24px;
   text-align:center;
@@ -709,7 +737,8 @@ section {
 
 .cookieConsentContainer .cookieButton a:hover {
   cursor:pointer;
-  background:#ffc529;
+  background:#000;
+  color: #ffc529;
   }
 
 @media (max-width:980px) {
@@ -719,3 +748,48 @@ section {
     width:100%!important;
     }
   }
+
+
+/*BANDEIRAS*/
+
+.fib {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.fi {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+.fi:before {
+  content: '\00a0';
+}
+.fi.fis {
+  width: 1em;
+}
+
+.fi-br {
+  background-image: url('flags/4x3/br.svg');
+}
+.fi-br.fis {
+  background-image: url('flags/1x1/br.svg');
+}
+
+.fi-us {
+  background-image: url('flags/4x3/us.svg');
+}
+.fi-us.fis {
+  background-image: url('flags/1x1/us.svg');
+}
+
+.fi-gb {
+  background-image: url('flags/4x3/gb.svg');
+}
+.fi-gb.fis {
+  background-image: url('flags/1x1/gb.svg');
+}
